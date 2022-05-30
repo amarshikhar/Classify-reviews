@@ -9,6 +9,7 @@ joblib = "*"
 pandas = "*"
 numpy = "*"
 nltk = "*"
+sklearn = "*"
 
 [dev-packages]
 
