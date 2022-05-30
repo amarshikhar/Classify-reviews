@@ -6,7 +6,7 @@ The data used in the project will be in "chrome_review.csv".
 
 "Classify reviews.ipynb" file contains coding for the model to train to get the result.
 
-The model is selected by performing hyper parameter tuning on different algorithms like Logistic regression, random forest classifier. The model which gives best accuracy for both train and test dataset is saved and choosen for our solution.
+The model is selected by performing hyper parameter tuning on different algorithms like Logistic regression and Naive Bayes. The model which gives best accuracy for both train and test dataset is saved and choosen for our solution.
 
 I have deployed it in Streamlit, code for deployment is written in "review_model.py" where we load the model and deployed it in "Streamlit".
 
