@@ -66,8 +66,8 @@ def main():
 				st.subheader('Classified Reviews')
 				st.write('Reviews where the semantics of review text does not match rating.')				
 				st.write(result)
-		except:
-			st.error('Error: Please choose a file')
+		except Exception as e:
+			st.Exception(f'Error: {e}')
 			
 			
   
