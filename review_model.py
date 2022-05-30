@@ -4,7 +4,9 @@ import joblib
 import pandas as pd
 import numpy as np
 import re
+import ulits
 from nltk.corpus import stopwords
+# import nltk 
 from nltk.stem.porter import PorterStemmer
 
 model=joblib.load('model.mod')
