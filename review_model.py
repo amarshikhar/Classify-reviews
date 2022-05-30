@@ -67,7 +67,7 @@ def main():
 				st.write('Reviews where the semantics of review text does not match rating.')				
 				st.write(result)
 		except Exception as e:
-			st.Exception(f'Error: {e}')
+			st.exception(f'Error: {e}')
 			
 			
   
