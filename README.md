@@ -19,3 +19,25 @@ I have uploaded a csv file namely "test_data.csv", In which I had made some chan
 So that when we upload this file, the api should display all these 15 values.
 
 Steps in deploying this model.(After all the necessary coding files are ready)
+
+To deploy on streamlit:
+
+>Goto stramlit, signup using github
+
+>Put code in your github repository
+
+>Enter the required fields
+
+Grammar checker:
+
+Using pretrained model we labeled the grammer as correct or incorrect.
+
+>ipynb file is grammar_reviews
+
+>review_output is the outpul file
+
+Regex pattern:
+
+{"orders":[{"id":1},{"id":2},{"id":3},{"id":4},{"id":5},{"id":6},{"id":7},{"id":8},{"id":9},{"id":10},{"id":11},{"id":648},{"id":649},{"id":650},{"id":651},{"id":652},{"id":653}],"errors":[{"code":3,"message":"[PHP Warning #2] count(): Parameter must be an array or an object that implements Countable (153)"}]}
+
+\d.*\d.*\d.*\d.*\d.*\d.*\d.*\d.*\d.*10.*11.*648.*649.*650.*651.*652.*653.*\d
